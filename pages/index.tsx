@@ -38,7 +38,8 @@ export default function Index() {
       <Header />
 
       <main className="">
-        <div className="min-h-[700px] md:h-auto px-4 lg:px-32 items-center flex flex-col md:flex-row gap-3">
+        {/*  */}
+        <section className="min-h-[700px] md:h-auto px-4 lg:px-32 items-center flex flex-col md:flex-row gap-3 dev">
           <div className="left flex-1 md:pr-24 order-2 md:order-1">
             <h2 className="text-4xl font-bold text-blue-600 mb-5 text-center md:text-left">
               We provide best <br className="hidden md:block" /> marketing
@@ -53,16 +54,16 @@ export default function Index() {
               minus. Facere voluptatum, laboriosam vitae dolore,
             </p>
 
-            <form className="flex justify-center items-center shadow-md p-1 md:mr-[10%]">
-              <div className="search-icon">
+            <form className="flex items-center shadow-md p-1 dev">
+              <div className="search-icon dev">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
                   stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   width="24"
                   height="24"
                   className="search-icon text-gray-400"
@@ -75,12 +76,12 @@ export default function Index() {
               <input
                 type="text"
                 placeholder="What do you want to services?"
-                className="flex-1 ml-2 focus:outline-none"
+                className="flex-auto ml-2 focus:outline-none dev"
               />
               <input
                 type="submit"
                 value="Search Here"
-                className="px-4 py-2 rounded-md bg-blue-600 text-white"
+                className="px-4 py-2 rounded-md bg-blue-600 text-white dev"
               />
             </form>
           </div>
@@ -99,7 +100,7 @@ export default function Index() {
               </ul>
             </div>
           </div>
-        </div>
+        </section>
 
         {/*  */}
         <section className="text-gray-600 body-font px-4 lg:px-32">
@@ -123,8 +124,8 @@ export default function Index() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-10 h-10"
                     viewBox="0 0 24 24"
@@ -146,8 +147,8 @@ export default function Index() {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -162,8 +163,8 @@ export default function Index() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-10 h-10"
                     viewBox="0 0 24 24"
@@ -187,8 +188,8 @@ export default function Index() {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -203,8 +204,8 @@ export default function Index() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-10 h-10"
                     viewBox="0 0 24 24"
@@ -227,8 +228,8 @@ export default function Index() {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -269,8 +270,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -285,8 +286,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -301,8 +302,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -317,8 +318,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -333,8 +334,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -356,8 +357,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -372,8 +373,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -388,8 +389,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -404,8 +405,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -420,8 +421,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -443,8 +444,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -459,8 +460,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -475,8 +476,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -491,8 +492,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -507,8 +508,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -530,8 +531,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -546,8 +547,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -562,8 +563,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -578,8 +579,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -594,8 +595,8 @@ export default function Index() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="3"
                         className="w-3 h-3"
                         viewBox="0 0 24 24"
@@ -871,7 +872,7 @@ export default function Index() {
 
         {/*  */}
         <footer className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col px-4 lg:px-32">
+          <div className="container py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col px-4 lg:px-32">
             <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
               <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                 <h2 className="text-2xl text-blue-600 font-medium cursor-pointer">
@@ -1011,8 +1012,8 @@ export default function Index() {
                 <a className="text-gray-500">
                   <svg
                     fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
@@ -1023,8 +1024,8 @@ export default function Index() {
                 <a className="ml-3 text-gray-500">
                   <svg
                     fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
@@ -1036,8 +1037,8 @@ export default function Index() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="2"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
@@ -1057,8 +1058,8 @@ export default function Index() {
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     stroke-width="0"
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
