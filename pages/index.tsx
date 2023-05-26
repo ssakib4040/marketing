@@ -634,7 +634,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/80x80"
+                    src="https://picsum.photos/80/80?random=1"
                     height={80}
                     width={80}
                   />
@@ -651,7 +651,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/84x84"
+                    src="https://picsum.photos/80/80?random=2"
                     height={84}
                     width={84}
                   />
@@ -668,7 +668,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/88x88"
+                    src="https://picsum.photos/80/80?random=3"
                     height={80}
                     width={80}
                   />
@@ -685,7 +685,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/90x90"
+                    src="https://picsum.photos/80/80?random=4"
                     height={80}
                     width={80}
                   />
@@ -702,7 +702,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/94x94"
+                    src="https://picsum.photos/80/80?random=5"
                     height={80}
                     width={80}
                   />
@@ -719,7 +719,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/98x98"
+                    src="https://picsum.photos/80/80?random=6"
                     height={80}
                     width={80}
                   />
@@ -736,7 +736,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/100x90"
+                    src="https://picsum.photos/80/80?random=7"
                     height={80}
                     width={80}
                   />
@@ -753,7 +753,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/104x94"
+                    src="https://picsum.photos/80/80?random=8"
                     height={80}
                     width={80}
                   />
@@ -770,7 +770,7 @@ export default function Index() {
                   <Image
                     alt="team"
                     className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/108x98"
+                    src="https://picsum.photos/80/80?random=9"
                     height={80}
                     width={80}
                   />
@@ -805,7 +805,7 @@ export default function Index() {
                   <Image
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/302x302"
+                    src="https://picsum.photos/80/80?random=10"
                     height={300}
                     width={300}
                   />
@@ -827,7 +827,7 @@ export default function Index() {
                   <Image
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/300x300"
+                    src="https://picsum.photos/80/80?random=11"
                     height={300}
                     width={300}
                   />
@@ -849,7 +849,7 @@ export default function Index() {
                   <Image
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/305x305"
+                    src="https://picsum.photos/80/80?random=12"
                     height={300}
                     width={300}
                   />
